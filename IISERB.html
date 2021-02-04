@@ -2,68 +2,145 @@
 <!-- saved from url=(0039)file:///C:/Users/archana/Desktop/n.html -->
 <html>
 <head>
-	<title>IISERB</title>
-	<link rel="stylesheet" type="text/css" href="./IISERB_files/style.css">
+
+  <link rel="stylesheet" type="text/css" href="./IISERB_files/style.css">
+  <title>IISERB</title>
 </head>
 <body>
-	<div>
-		<h1><img src="l.png"><span><input type="text" name="search" placeholder="search.."></span></h1>
-		
-		<h2>
-			<div class="top">
-				<a href="#Institute">Institute</a>
-				<a href="#Department">Department</a>
-				<a href="Research">Research</a>
-				<a href="Students">Students</a>
-				<a href="Academics">Academics</a>
-				<a href="Facilites">Facilites</a>
-	    	</div>
-		</h2>
-		
-		<br><br>
-		
-		<center><img src="img.jpg" width="750px;" height="300px;"></center>
-		
-		<br><br>
-		
-		<h3><center><br>NEWS</center><br><br>
-			<ul>
-				<li>Proff Dr.XYZ completed another research.</li>
-				<li>Mr.DEFGH has been selected for his further research at vbnm commette.</li>
-				<li>NIRF ranking 41.</li>
-				<li>trying my best.</li>
-				<li>ALL THE BEST.</li>
-			</ul>
-			
-		</h3>
-	
-		<br><br><br>
+  <div>
+   <img src="f.png"><span><form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </span>
+    
+    
+   <h2>
+      <div class="top">
+        
+        <div class="dropdown">
+        <button class="dropbtn">Institute
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
 
-		<h4>
-			
-			<div style="width: 300px; float: left; height: 300px; background-color: #6D4145; color: white;">
-				<br><center>EVENTS</center>
-				<ul>
-					<li>Talk on new topic.</li>
-					<li>UDAAN</li>
-					<li>Web development</li>
-				</ul>
-			</div>
-			<div style="width: 300px; float: right; height: 300px; background-color: #6D4145; color: white;">
-				<br><center>BULLITEN BOARD</center>
-				<ol>
-					<li>Admission 2020</li>
-					<li>Results</li>
-					<li>Funds</li>
-				</ol>
-			</div>
+        <div class="dropdown">
+        <button class="dropbtn">Department
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
 
-		</h4>
+        <div class="dropdown">
+        <button class="dropbtn">Research
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
 
-		<br><br><br>
+        <div class="dropdown">
+        <button class="dropbtn">Acadmics
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
 
-		<footer><center><h5>Copyright &copy; IISERB 2020</h5></center></footer>
+        <div class="dropdown">
+        <button class="dropbtn">Report
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
+        
+        <div class="dropdown">
+        <button class="dropbtn">Facilities
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+        </div>
 
-	</div>
+      </div>
+    </h2>
+    
+    <br><br>
+     
+    <div class="w3-content w3-display-container">
+    <img class="mySlides" src="img.jpg">
+    <img class="mySlides" src="img.jpg">
+    <img class="mySlides" src="img.jpg">
+    <div class="w3-center w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+    </div>
+    </div>
+    <br><br>
+    
+    <h3><center><br>NEWS</center><br><br>
+      <ul>
+        <li>Proff Dr.XYZ completed another research.</li>
+        <li>Mr.DEFGH has been selected for his further research at vbnm commette.</li>
+        <li>NIRF ranking 41.</li>
+        <li>trying my best.</li>
+        <li>ALL THE BEST.</li>
+      </ul>
+      
+    </h3>
+  
+    <br><br><br>
+
+    <h4>
+      
+      <div style="width: 300px; float: left; height: 300px; background-color: #6D4145; color: white;">
+        <br><center>EVENTS</center>
+        <ul>
+          <li>Talk on new topic.</li>
+          <li>UDAAN</li>
+          <li>Web development</li>
+        </ul>
+      </div>
+      <div style="width: 300px; float: right; height: 300px; background-color: #6D4145; color: white;">
+        <br><center>BULLITEN BOARD</center>
+        <ol>
+          <li>Admission 2020</li>
+          <li>Results</li>
+          <li>Funds</li>
+        </ol>
+      </div>
+
+    </h4>
+
+    <br><br><br>
+
+    <footer><center><h5>Copyright &copy; IISERB 2020</h5></center></footer>
+
+  </div>
 </body>
 </html>
